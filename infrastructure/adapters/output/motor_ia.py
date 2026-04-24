@@ -8,8 +8,8 @@ from __future__ import annotations
 import numpy as np
 from sklearn.ensemble import IsolationForest, RandomForestRegressor
 
-from backend.domain.entities.sensor_reading import LecturaSensor, Recomendacion
-from backend.domain.ports.ports import MotorIA
+from domain.entities.sensor_reading import LecturaSensor, Recomendacion
+from domain.ports.ports import MotorIA
 
 
 # ── Estrategia 1: Motor de reglas ────────────────────────────────────────────

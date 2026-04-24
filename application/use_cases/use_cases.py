@@ -2,13 +2,13 @@
 Casos de uso — capa de aplicación.
 Orquestan el dominio sin conocer frameworks ni bases de datos.
 """
-from backend.domain.entities.sensor_reading import (
+from domain.entities.sensor_reading import (
     Alerta,
     Experimento,
     LecturaSensor,
     Recomendacion,
 )
-from backend.domain.ports.ports import (
+from domain.ports.ports import (
     AlertaRepository,
     ExperimentoRepository,
     MotorIA,

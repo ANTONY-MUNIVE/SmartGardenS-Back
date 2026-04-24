@@ -8,12 +8,12 @@ from sqlalchemy import Column, DateTime, Float, Integer, String, Text, select
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 from sqlalchemy.orm import DeclarativeBase
 
-from backend.domain.entities.sensor_reading import (
+from domain.entities.sensor_reading import (
     Alerta,
     Experimento,
     LecturaSensor,
 )
-from backend.domain.ports.ports import (
+from domain.ports.ports import (
     AlertaRepository,
     ExperimentoRepository,
     SensorRepository,

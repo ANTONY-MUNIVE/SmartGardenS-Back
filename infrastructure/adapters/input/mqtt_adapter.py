@@ -10,8 +10,8 @@ from datetime import datetime
 
 import paho.mqtt.client as mqtt
 
-from backend.domain.entities.sensor_reading import LecturaSensor
-from backend.domain.ports.ports import SensorPublisher
+from domain.entities.sensor_reading import LecturaSensor
+from domain.ports.ports import SensorPublisher
 
 logger = logging.getLogger(__name__)
 

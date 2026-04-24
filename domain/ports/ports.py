@@ -6,7 +6,7 @@ Todo apunta al centro — el dominio no conoce a nadie.
 from abc import ABC, abstractmethod
 from datetime import datetime
 
-from backend.domain.entities.sensor_reading import (
+from domain.entities.sensor_reading import (
     Alerta,
     Experimento,
     LecturaSensor,
